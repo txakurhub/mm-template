@@ -671,7 +671,7 @@ section
 	-ms-transform: rotate(45deg);
 	-o-transform: rotate(45deg);
 	transform: rotate(45deg);
-	background: rgba(222,79,50,0.7);
+	background: #030301a2;
 	width: 200%;
 	height: 200%;
 	z-index: 1;
@@ -684,11 +684,11 @@ section
 }
 .disc:hover a::before
 {
-	-webkit-transform: translate(60%, 60%) rotate(45deg);
-	-moz-transform: translate(60%, 60%) rotate(45deg);
-	-ms-transform: translate(60%, 60%) rotate(45deg);
-	-o-transform: translate(60%, 60%) rotate(45deg);
-	transform: translate(60%, 60%) rotate(45deg);
+	-webkit-transform: translate(60%, 60%) rotate(25deg);
+	-moz-transform: translate(60%, 60%) rotate(25deg);
+	-ms-transform: translate(60%, 60%) rotate(25deg);
+	-o-transform: translate(60%, 60%) rotate(25deg);
+	transform: translate(60%, 60%) rotate(25deg);
 }
 .disc_image
 {
