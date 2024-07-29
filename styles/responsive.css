@@ -37,16 +37,6 @@
 3. 1380px
 ************/
 
-@media only screen and (max-width: 1380px) {
-	.newsletter_container {
-		width: 450px;
-	}
-
-	.footer_lists {
-		width: 575px;
-	}
-}
-
 /************
 3. 1280px
 ************/
@@ -60,18 +50,6 @@
 @media only screen and (max-width: 1199px) {
 	.shows_image {
 		left: -198px;
-	}
-
-	.footer_lists {
-		width: 667px;
-	}
-
-	.copyright_bar {
-		margin-top: 60px;
-	}
-
-	.newsletter_container {
-		width: 667px;
 	}
 }
 
@@ -94,10 +72,6 @@
 @media only screen and (max-width: 991px) {
 	.main_nav {
 		display: none;
-	}
-
-	.log_reg {
-		right: 120px;
 	}
 
 	.hamburger {
@@ -142,10 +116,6 @@
 	.shows_list_container {
 		width: 100%;
 		top: auto;
-		-webkit-transform: none;
-		-moz-transform: none;
-		-ms-transform: none;
-		-o-transform: none;
 		transform: none;
 		padding-left: 15px;
 		padding-right: 15px;
@@ -155,10 +125,6 @@
 		position: absolute;
 		top: 50%;
 		left: 0;
-		-webkit-transform: translateY(-50%);
-		-moz-transform: translateY(-50%);
-		-ms-transform: translateY(-50%);
-		-o-transform: translateY(-50%);
 		transform: translateY(-50%);
 	}
 
@@ -245,18 +211,6 @@
 	.artist_image img {
 		max-width: 54%;
 	}
-
-	.extra_title h1 {
-		font-size: 48px;
-	}
-
-	.footer_lists {
-		width: 100%;
-	}
-
-	.newsletter_container {
-		width: 100%;
-	}
 }
 
 /************
@@ -280,14 +234,6 @@
 
 	.logo {
 		left: 15px;
-	}
-
-	.log_reg {
-		display: none;
-	}
-
-	.menu_log_reg {
-		display: block;
 	}
 
 	.featured_album_artist {
@@ -325,11 +271,6 @@
 		width: 100px;
 	}
 
-	.single_player_container {
-		width: 100%;
-		left: auto;
-	}
-
 	.jp-type-single .player_details {
 		padding-left: 20px;
 		padding-right: 22px;
@@ -348,31 +289,6 @@
 	.footer {
 		padding-left: 15px;
 		padding-right: 15px;
-	}
-
-	.extra_title h1 {
-		font-size: 36px;
-	}
-
-	.newsletter_input {
-		height: 40px;
-	}
-
-	.newsletter_button {
-		width: 109px;
-		height: 40px;
-	}
-
-	.newsletter_title h2 {
-		font-size: 24px;
-	}
-
-	.footer_list {
-		width: 100%;
-	}
-
-	.footer_list:not(:last-child) {
-		margin-bottom: 60px;
 	}
 }
 
